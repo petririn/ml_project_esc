@@ -1,0 +1,111 @@
+# ================================
+# Python
+# ================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ================================
+# Виртуальное окружение
+# ================================
+.venv/
+venv/
+ENV/
+env/
+
+# ================================
+# Jupyter Notebook
+# ================================
+.ipynb_checkpoints/
+*.ipynb
+!notebooks/*.ipynb
+
+# ================================
+# IDE и редакторы
+# ================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# ================================
+# ОС
+# ================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ================================
+# Данные 
+# ================================
+# Обработанные данные
+data/processed/*.csv
+data/processed/*.xlsx
+data/processed/*.png
+data/processed/*.jpg
+
+# ================================
+# Модели и эксперименты
+# ================================
+# Обученные модели 
+experiments/trained_models/
+*.pkl
+*.pt
+*.bin
+*.h5
+*.onnx
+
+# Результаты экспериментов
+experiments/*.csv
+experiments/*.png
+experiments/*.jpg
+experiments/*.log
+
+# Модели Stanza (скачанные локально)
+stanza_resources/
+~/stanza_resources/
+
+# Кэш HuggingFace
+.cache/huggingface/
+.huggingface_cache/
+
+# Кэш transformers
+transformers_cache/
+
+# ================================
+# Переменные окружения
+# ================================
+.env
+.env.local
+.env.*.local
+
+# ================================
+# Логи
+# ================================
+*.log
+logs/
+
+# ================================
+# Временные файлы
+# ================================
+*.tmp
+*.temp
+~*

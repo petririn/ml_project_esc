@@ -1,0 +1,18 @@
+# Основные библиотеки для ML
+pandas>=2.2.0
+numpy>=2.1.0
+scikit-learn>=1.5.0
+catboost>=1.2.7
+
+# Визуализация
+matplotlib>=3.9.0
+seaborn>=0.13.2
+
+# Работа с Excel
+openpyxl>=3.1.5
+
+# POS-разметка (Stanza)
+stanza>=1.9.0
+
+# Для работы через прокси (опционально)
+PySocks>=1.7.1
